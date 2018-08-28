@@ -7,8 +7,8 @@ setup(
     description='Django Rest Framework Library to use Auth0 authentication',
     author='Marcelo Cueto',
     author_email='yo@marcelocueto.cl',
-    url='https://github.com/mcueto/djangorestframework-auth0',
-    download_url='https://github.com/mcueto/djangorestframework-auth0/tarball/0.4.6',
+    url='https://github.com/Calion54/djangorestframework-auth0',
+    download_url='https://github.com/Calion54/djangorestframework-auth0/tarball/0.4.6',
     keywords=['auth0', 'rest framework', 'django'],
     classifiers=[
         'Environment :: Web Environment',

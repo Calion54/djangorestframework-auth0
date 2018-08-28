@@ -51,12 +51,18 @@ def get_roles_from_payload(payload):
     return roles
 
 
+def get_roles(payload):
+    roles = payload.get(auth0_api_settings.NAMESPACE + 'roles')
+    return roles
+
+
 def validate_role(roles, role):
     return role in roles
 
 
 def validate_role_from_payload(payload, role):
-    roles = get_roles_from_payload(payload)
+    #roles = get_roles_from_payload(payload)
+    roles = get_roles(payload)
     return validate_role(roles, role)
 
 
